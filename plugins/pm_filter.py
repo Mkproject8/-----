@@ -1042,7 +1042,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "manuelfilter":
         buttons = [[
-            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help),
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='commands'),
             InlineKeyboardButton('𝙱𝚄𝚃𝚃𝙾𝙽𝚂', callback_data='button')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
